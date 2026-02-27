@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tesing Gitlab CI/CD</title>
+    <link>http://localhost:1313/delajeng/testcicd/</link>
+    <description>Recent content on Tesing Gitlab CI/CD</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Feb 2026 14:12:02 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/delajeng/testcicd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/delajeng/testcicd/posts/my-first-post/</link>
+      <pubDate>Fri, 27 Feb 2026 14:12:02 +0100</pubDate>
+      <guid>http://localhost:1313/delajeng/testcicd/posts/my-first-post/</guid>
+      <description>&lt;p&gt;STARGATE IS COMING BACKK!!!!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

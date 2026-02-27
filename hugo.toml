@@ -1,0 +1,4 @@
+baseURL = 'https://gitlab.com/delajeng/testcicd'
+languageCode = 'en-us'
+title = 'Tesing Gitlab CI/CD'
+theme = "ananke"
