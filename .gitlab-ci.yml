@@ -1,5 +1,5 @@
 image:
-  name: registry.gitlab.com/pages/hugo:latest
+  name: registry.gitlab.com/pages/hugo/hugo_extended:0.150.0
   entrypoint: [""]
 
 variables:
