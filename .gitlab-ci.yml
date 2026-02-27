@@ -1,33 +1,17 @@
-image: debian:stable-slim
-
-stages:
-  - build
-  - deploy
+image:
+  name: registry.gitlab.com/pages/hugo:latest
+  entrypoint: [""]
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
-before_script:
-  - apt-get update
-  - apt-get install -y curl git
-  - curl -L https://github.com/gohugoio/hugo/releases/latest/download/hugo_extended_Linux-64bit.tar.gz -o hugo.tar.gz
-  - tar -xzf hugo.tar.gz
-  - mv hugo /usr/local/bin/
-  - hugo version
-  - git submodule update --init --recursive
+stages:
+  - build
 
-build:
+pages:
   stage: build
   script:
     - hugo --minify
-  artifacts:
-    paths:
-      - public
-
-pages:
-  stage: deploy
-  script:
-    - echo "Deploying to GitLab Pages"
   artifacts:
     paths:
       - public
