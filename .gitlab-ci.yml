@@ -1,4 +1,6 @@
-image: klakegg/hugo:latest
+image:
+  name: klakegg/hugo:latest
+  entrypoint: [""]
 
 stages:
   - build
@@ -18,7 +20,7 @@ build:
 pages:
   stage: deploy
   script:
-    - echo "Deploying to GitLab Pages"
+    - echo "Deploying"
   artifacts:
     paths:
       - public
