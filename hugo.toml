@@ -1,4 +1,4 @@
-baseURL = 'https://gitlab.com/delajeng/testcicd'
+baseURL = 'https://github.com/Delajeng/TestCICD'
 languageCode = 'en-us'
 title = 'Tesing Gitlab CI/CD'
 theme = "ananke"
